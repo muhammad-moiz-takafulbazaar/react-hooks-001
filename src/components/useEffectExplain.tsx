@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 const UseEffectExplain = () => {
   const [input, setInput] = useState('');
   useEffect(() => {
-    console.log("render only for the first time")
-  }, [])
+    document.title = input
+  }, [input])
   return (
     <div>
       <h1>{input}</h1>
