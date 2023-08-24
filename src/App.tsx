@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UseMemoExplain from './components/UseMemoExplain';
 // import UseStateExplain from './components/useStateExplain';
 // import UseEffectExplain from './components/useEffectExplain';
 // import UseLayoutEffectExplain from './components/useLayoutEffectExplain';
@@ -15,6 +16,7 @@ function App() {
         {/* <UseEffectExplain /> */}
         {/* <UseLayoutEffectExplain /> */}
         {/* <UseRefEffectExplain /> */}
+        <UseMemoExplain />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
