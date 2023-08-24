@@ -4,7 +4,7 @@ import './App.css';
 // import UseStateExplain from './components/useStateExplain';
 // import UseEffectExplain from './components/useEffectExplain';
 // import UseLayoutEffectExplain from './components/useLayoutEffectExplain';
-import UseRefEffectExplain from './components/useRefExplain';
+// import UseRefEffectExplain from './components/useRefExplain';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         {/* <UseStateExplain /> */}
         {/* <UseEffectExplain /> */}
         {/* <UseLayoutEffectExplain /> */}
-        <UseRefEffectExplain />
+        {/* <UseRefEffectExplain /> */}
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
