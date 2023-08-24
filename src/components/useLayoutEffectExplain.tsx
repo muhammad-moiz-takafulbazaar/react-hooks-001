@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 
 const UseLayoutEffectExplain = () => {
   const [counter, setCounter] = useState(0);
-  useEffect(() => {
+  /**
+   * run before with dom and don't wait for everything to print first 
+   */
+  useLayoutEffect(() => {
     function test() {
       if (counter === 0) {
         setCounter(Math.random() * 200);
