@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 // import UseStateExplain from './components/useStateExplain';
 // import UseEffectExplain from './components/useEffectExplain';
-import UseLayoutEffectExplain from './components/useLayoutEffectExplain';
+// import UseLayoutEffectExplain from './components/useLayoutEffectExplain';
+import UseRefEffectExplain from './components/useRefExplain';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         {/* <UseStateExplain /> */}
         {/* <UseEffectExplain /> */}
-        <UseLayoutEffectExplain />
+        {/* <UseLayoutEffectExplain /> */}
+        <UseRefEffectExplain />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
